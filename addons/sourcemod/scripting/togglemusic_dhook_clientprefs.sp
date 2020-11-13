@@ -102,19 +102,19 @@ public void OnPluginStart()
 			}
 		else if (eVer == Engine_TF2) {
 			tmpOffset = "sdktools.games\\engine.tf";
-			AddTempEntHook("Shotgun Shot", CSS_Hook_ShotgunShot);
+			AddTempEntHook("Shotgun Shot", DODS_Hook_FireBullets);
 			}
 		else if (eVer == Engine_Contagion) {
 			tmpOffset = "sdktools.games\\engine.contagion";
-			AddTempEntHook("Shotgun Shot", CSS_Hook_ShotgunShot);
+			AddTempEntHook("Shotgun Shot", DODS_Hook_FireBullets);
 			}
 		else if (eVer == Engine_Left4Dead2) {
 			tmpOffset = "sdktools.games\\engine.Left4Dead2";
-			AddTempEntHook("Shotgun Shot", CSS_Hook_ShotgunShot);
+			AddTempEntHook("Shotgun Shot", DODS_Hook_FireBullets);
 			}
 		else if (eVer == Engine_AlienSwarm) {
 			tmpOffset = "sdktools.games\\engine.swarm";
-			AddTempEntHook("Shotgun Shot", CSS_Hook_ShotgunShot);
+			AddTempEntHook("Shotgun Shot", DODS_Hook_FireBullets);
 			}
 		// TF2/HL2:DM and misc weapon sounds will be caught here.
 		AddNormalSoundHook(Hook_NormalSound);
