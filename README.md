@@ -1,13 +1,13 @@
-#[ANY] Toggle-Music-Sounds-Clientprefs
+# [ANY] Toggle-Music-Sounds-Clientprefs
 
 * Compiled in version; SourceMod Version: 1.10.0.6492
 * Sorry for my English.
 
-###[ANY] Toggle-Music-Sounds-Clientprefs
+### [ANY] Toggle-Music-Sounds-Clientprefs
 Control of activation or deactivation of the weapons sound of the players and music of the map, and volume control!
 Clientprefs, save the options until the player changes them again.
 
-###Server ConVars
+### Server ConVars
 
 * "sm_chathud_version" "ChatHud_Translator Version"
 * "sm_chathud_1_position", "-1.0 0.100", "The X and Y position for the hud 1."
