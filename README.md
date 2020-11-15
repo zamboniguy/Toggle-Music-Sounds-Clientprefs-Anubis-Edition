@@ -7,13 +7,13 @@
 Control of activation or deactivation of the weapons sound of the players and music of the map, and volume control!
 Clientprefs, save the options until the player changes them again.
 
-### Server ConVars
+### Commands Players.
 
-* "sm_chathud_version" "ChatHud_Translator Version"
-* "sm_chathud_1_position", "-1.0 0.100", "The X and Y position for the hud 1."
-* "sm_chathud_2_position", "-1.0 0.125", "The X and Y position for the hud 2."
-* "sm_chathud_color", "255 0 0", "RGB color value for the hud."
-* "sm_chathud_symbols", "0", "Determines whether >> and << are wrapped around the text."
+* "sm_togglemusic_version" "Toggle Map Music Version" ( server convars )
+* "sm_stopsound" "Toggle hearing weapon sounds"
+* "sm_music" "Toggles map music"
+* "sm_stopmusic" "Toggles map music"
+* "sm_volume" "Brings volume menu"
 
 
 ![alt text](https://i.ibb.co/X8J6r5s/20201113222103-1.jpg)
