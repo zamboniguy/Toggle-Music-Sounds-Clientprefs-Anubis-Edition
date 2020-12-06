@@ -15,13 +15,13 @@
 	"WeaponsSounds"
 	{
 		"pt"		"Som das Armas:"
-		"en"		"Wepons Sounds:"
+		"en"		"Weapon sounds:"
 	}
 
 	"Musicmap_Sounds"
 	{
 		"pt"		"Musicas do Mapa:"
-		"en"		"Music Map:"
+		"en"		"Map music:"
 	}
 
 	"ON"
@@ -51,7 +51,7 @@
 	"Map_volume"
 	{
 		"pt"		"Volume do Mapa:"
-		"en"		"Map Volume:"
+		"en"		"Music volume:"
 	}
 
 	"Porcento"
@@ -92,43 +92,43 @@
 	"CenterWeaponsSounds"
 	{
 		"pt"		"O Som das Armas Foram:"
-		"en"		"The Sound of Weapons Were:"
+		"en"		"Weapon sounds are:"
 	}
 
 	"ChatWeaponsSounds"
 	{
 		"pt"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}O Som das Armas Foram:"
-		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}The Sound of Weapons Were:"
+		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}Weapon sounds are:"
 	}
 	
 	"CenterMusicMapSounds"
 	{
 		"pt"		"As Músicas do Mapa Foram:"
-		"en"		"The Map Songs Were:"
+		"en"		"Map music is:"
 	}
 
 	"ChatMusicMapSounds"
 	{
 		"pt"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}As Músicas do Mapa Foram:"
-		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}The Map Songs Were:"
+		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}Map music is:"
 	}
 
 	"Center_Volume_Set"
 	{
 		"pt"		"O Volume do Mapa Foi Alterado Para:"
-		"en"		"Map Volume Has Been Changed To:"
+		"en"		"Music volume is now at:"
 	}
 
 	"Chat_Volume_Set"
 	{
 		"pt"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}O Volume do Mapa Foi Alterado Para:"
-		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}Map Volume Has Been Changed To:"
+		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}Music volume is now at:"
 	}
 
 	"Chat_Notice"
 	{
 		"pt"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}As Musicas do Mapa Estão Desativadas,Para Alterar Digite {RED}!music {OLIVE}no chat!"
-		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}Map Songs Are Disabled, To Change Enter {RED}!music {OLIVE}the chat!"
+		"en"		"{GREEN}[{BLUE}Toggle Sounds{GREEN}] {OLIVE}Map music is disabled, toggle music with {RED}!music{default}!"
 	}
 
 }
