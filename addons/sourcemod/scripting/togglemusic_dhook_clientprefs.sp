@@ -6,7 +6,7 @@
 #include <dhooks>
 #include <clientprefs>
 #include <regex>
-#include <csgo_colors>
+#include <csgocolors>
 
 #define PLUGIN_VERSION "3.7.9-A"
 
@@ -475,20 +475,22 @@ public void OnEntityCreated(int entity, const char[] classname)
 public void OnEntitySpawned(int entity)
 {
 	char seName[64], eName[64];
-	GetEntPropString(entity, Prop_Data, "m_sSourceEntName", seName, sizeof(seName));
-	int eFlags = GetEntProp(entity, Prop_Data, "m_spawnflags");
-	
-	if (!(eFlags & 1) && seName[0])
-	{
-		for (int i = 0; i <= GetEntityCount(); i++)
+	if(HasEntProp(entity, Prop_Data, "m_sSourceEntName")) {
+		GetEntPropString(entity, Prop_Data, "m_sSourceEntName", seName, sizeof(seName));
+		int eFlags = GetEntProp(entity, Prop_Data, "m_spawnflags");
+		
+		if (!(eFlags & 1) && seName[0])
 		{
-			if (IsValidEntity(i))
+			for (int i = 0; i <= GetEntityCount(); i++)
 			{
-				GetEntPropString(i, Prop_Data, "m_iName", eName, sizeof(eName));
-				if (StrEqual(seName, eName, false))
+				if (IsValidEntity(i))
 				{
-					g_smSourceEnts.SetValue(seName, EntIndexToEntRef(i), true);
-					return;
+					GetEntPropString(i, Prop_Data, "m_iName", eName, sizeof(eName));
+					if (StrEqual(seName, eName, false))
+					{
+						g_smSourceEnts.SetValue(seName, EntIndexToEntRef(i), true);
+						
+					}
 				}
 			}
 		}
